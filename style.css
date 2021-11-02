@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: orange;
+}
+table, th, tr, td{
+  
+    margin: 5%;
+    border: 2px solid grey;
+    border-collapse: collapse;
+    box-shadow: 2px 2px 10px gray;
+    text-align: center;
+}
+th,td{
+    width: 30vw;
+    height: 10vh;
+
+}
+
+.page{
+
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 10vh 90vh;
+    grid-template-areas: 'header'
+                         'main';
+
+}
+.header{
+    padding: 2%;
+    grid-area: header;
+    background-color: orange;
+    text-align: center;
+}
+.main{
+    grid-area: main;
+    
+}
+h1{
+    height: 10px;
+    text-align: center;
+}
+button{
+    box-shadow: 2px 2px 20px grey;
+    background-color: orange;
+    margin-left: 3px;
+    transition-duration: 1s;
+  
+}
+button:hover{
+    background-color: white;
+ 
+}
