@@ -52,3 +52,42 @@ button:hover{
     background-color: white;
  
 }
+@media only screen and (max-width: 400px) {
+    table, th, tr, td{
+  
+        margin: 0;
+        border: 2px solid grey;
+        border-collapse: collapse;
+        box-shadow: 2px 2px 10px gray;
+        text-align: center;
+        
+       
+    }
+     th,td{
+       overflow: scroll;
+     
+    
+    }
+    .header{
+        padding: 2%;
+        grid-area: header;
+        background-color: black;
+        text-align: center;
+    }
+    .page{
+
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 5vh 90vh;
+        grid-template-areas: 'header'
+                             'main';
+    
+    }
+    button{
+        box-shadow: 2px 2px 20px grey;
+        background-color: orange;
+        margin: 3px;
+        transition-duration: 1s;
+      
+    }
+  }
