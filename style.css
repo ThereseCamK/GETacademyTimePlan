@@ -46,6 +46,7 @@ button{
     background-color: orange;
     margin-left: 3px;
     transition-duration: 1s;
+    width: 7s0px;
   
 }
 button:hover{
@@ -78,7 +79,7 @@ button:hover{
 
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 5vh 90vh;
+        grid-template-rows: 10vh 90vh;
         grid-template-areas: 'header'
                              'main';
     
