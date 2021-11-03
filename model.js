@@ -1,5 +1,5 @@
 const model = {
-   selectedOption: null,
+   selectedOption: 1,
    selected: ' ',
     days: [
        '<tt>Tid</tt>', 'Mandag', 'Tirsdag', 'Onsdag', 'Torsdag' , 'Fredag'
