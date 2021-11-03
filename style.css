@@ -46,7 +46,10 @@ button{
     background-color: orange;
     margin-left: 3px;
     transition-duration: 1s;
-    width: 7s0px;
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    font-weight: bolder;
   
 }
 button:hover{
