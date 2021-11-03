@@ -82,12 +82,12 @@ const model = {
         },
         {
             //modul 3
-            type: 'CodeAlong Modul 3', //navn på ting
+            type: 'CodeReview Modul 3', //navn på ting
             time:{
                 day: 3,// index i array over dager
                 timeSlot: [10,11], //plass i array timeSlots
             },
-            option:[8,5]//id til modul og lærer
+            option:[8,5, 3]//id til modul og lærer
             
         },
         {
