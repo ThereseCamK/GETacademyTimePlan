@@ -202,6 +202,51 @@ const model = {
             option:[8]//id til modul og lærer
             
         },
+        {
+            type: '<div >MORGEN MØTE</div>', //navn på ting
+            time:{
+                day: 1,// index i array over dager
+                timeSlot: [3], //plass i array timeSlots
+            },
+            option:[1, 2, 3]//id til modul og lærer
+            
+        },
+        {
+            type: '<div >MORGEN MØTE</div>', //navn på ting
+            time:{
+                day: 2,// index i array over dager
+                timeSlot: [3], //plass i array timeSlots
+            },
+            option:[1, 2, 3]//id til modul og lærer
+            
+        },
+        {
+            type: '<div >MORGEN MØTE</div>', //navn på ting
+            time:{
+                day: 3,// index i array over dager
+                timeSlot: [2], //plass i array timeSlots
+            },
+            option:[1, 2, 3]//id til modul og lærer
+            
+        },
+        {
+            type: '<div >MORGEN MØTE</div>', //navn på ting
+            time:{
+                day: 4,// index i array over dager
+                timeSlot: [4], //plass i array timeSlots
+            },
+            option:[1, 2, 3]//id til modul og lærer
+            
+        },
+        {
+            type: '<div >MORGEN MØTE</div>', //navn på ting
+            time:{
+                day: 5,// index i array over dager
+                timeSlot: [3], //plass i array timeSlots
+            },
+            option:[1, 2, 3]//id til modul og lærer
+            
+        },
     ],
    
    
