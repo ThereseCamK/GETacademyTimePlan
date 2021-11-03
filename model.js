@@ -97,7 +97,7 @@ const model = {
                 day: 2,// index i array over dager
                 timeSlot: [4,5, 6], //plass i array timeSlots
             },
-            option:[5, 11,3,]//id til modul og lærer
+            option:[5, 11,3,8]//id til modul og lærer
             
         },
         {
@@ -107,7 +107,7 @@ const model = {
                 day: 5,// index i array over dager
                 timeSlot: [4,5, 6], //plass i array timeSlots
             },
-            option:[5, 9, 3]//id til modul og lærer
+            option:[5, 9, 3, 8]//id til modul og lærer
             
         },
         {
