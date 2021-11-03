@@ -184,6 +184,24 @@ const model = {
             option:[1,2,3,5,6,7,8,9,10,11]//id til modul og lærer
             
         },
+        {
+            type: '<div >GET-IT</div>', //navn på ting
+            time:{
+                day: 3,// index i array over dager
+                timeSlot: [0,1,2,3], //plass i array timeSlots
+            },
+            option:[8]//id til modul og lærer
+            
+        },
+        {
+            type: '<div >GET-IT</div>', //navn på ting
+            time:{
+                day: 3,// index i array over dager
+                timeSlot: [14,15], //plass i array timeSlots
+            },
+            option:[8]//id til modul og lærer
+            
+        },
     ],
    
    
