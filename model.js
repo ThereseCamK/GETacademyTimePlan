@@ -122,7 +122,7 @@ const model = {
 
         //EGENTID 
         {
-            type: '<tt>EGENTID T/B-(oddetall)<hr>EGENTID J/L-(partall)</tt>', //navn på ting
+            type: '<tt>EGENTID J/L-(oddetall)<hr>EGENTID T/B-(partall)</tt>', //navn på ting
             time:{
                 day: 1,// index i array over dager
                 timeSlot: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], //plass i array timeSlots
@@ -131,7 +131,7 @@ const model = {
             
         },
         {
-            type: '<tt>EGENTID J/L-(oddetall)<hr>EGENTID T/B-(partall)</tt>', //navn på ting
+            type: '<tt>EGENTID T/B-(oddetall)<hr>EGENTID L/J-(partall)</tt>', //navn på ting
             time:{
                 day: 4,// index i array over dager
                 timeSlot: [0,1,2,3,4,5,6,7,11,12,13,14,15], //plass i array timeSlots
