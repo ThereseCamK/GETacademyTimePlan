@@ -19,7 +19,7 @@ const model = {
         {id: 1, txt: 'Modul 1'},
         {id: 2, txt: 'Modul 2'},
         {id: 3, txt: 'Modul 3'},
-        // {id: 4, txt: 'Alle Lærerene'},
+        {id: 4, txt: 'MT'},
         {id: 5, txt: 'Joakim'},
         {id: 6, txt: 'Bjørnar'},
         {id: 7, txt: 'Linn'},
@@ -37,9 +37,9 @@ const model = {
             type: 'Undervisning Modul 1', //navn på ting
             time:{
                 day: 2,// index i array over dager
-                timeSlot: [4, 5], //plass i array timeSlots
+                timeSlot: [4, 5, 6], //plass i array timeSlots
             },
-            option:[1, 10]//id til modul og lærer
+            option:[1, 10, 8]//id til modul og lærer
             
         },
       
@@ -47,28 +47,28 @@ const model = {
         {
             type: 'TeamOppgave Modul 1' , //navn på ting
             time:{
-                day: 2,// index i array over dager
+                day: 4,// index i array over dager
                 timeSlot: [12,13], //plass i array timeSlots
             },
-            option:[1, 10,]//id til modul og lærer
+            option:[1, 10, 8]//id til modul og lærer
             
         },
         {
             type: 'Undervisning Modul 1', //navn på ting
             time:{
                 day: 5,// index i array over dager
-                timeSlot: [4,5], //plass i array timeSlots
+                timeSlot: [4,5, 6], //plass i array timeSlots
             },
-            option:[1, 10,]//id til modul og lærer
+            option:[1, 10, 8]//id til modul og lærer
             
         },
         {
             type: 'Oppsummering Modul 1', //navn på ting
             time:{
                 day: 5,// index i array over dager
-                timeSlot: [8,9], //plass i array timeSlots
+                timeSlot: [9,10], //plass i array timeSlots
             },
-            option:[1, 10,]//id til modul og lærer
+            option:[1, 10, 8]//id til modul og lærer
             
         },
         {
@@ -77,7 +77,7 @@ const model = {
                 day: 5,// index i array over dager
                 timeSlot: [4], //plass i array timeSlots
             },
-            option:[2, 7,6]//id til modul og lærer
+            option:[5,6]//id til modul og lærer
             
         },
         {
@@ -87,7 +87,7 @@ const model = {
                 day: 3,// index i array over dager
                 timeSlot: [10,11], //plass i array timeSlots
             },
-            option:[8,5, 3]//id til modul og lærer
+            option:[5,6]//id til modul og lærer
             
         },
         {
@@ -97,57 +97,57 @@ const model = {
                 day: 2,// index i array over dager
                 timeSlot: [4,5, 6], //plass i array timeSlots
             },
-            option:[5, 11,3,8]//id til modul og lærer
+            option:[5, 6, 11]//id til modul og lærer
             
         },
         {
             //modul 3
             type: 'Undervisning Modul 3', //navn på ting
             time:{
-                day: 5,// index i array over dager
-                timeSlot: [4,5, 6], //plass i array timeSlots
+                day: 4,// index i array over dager
+                timeSlot: [9,10,11], //plass i array timeSlots
             },
-            option:[5, 9, 3, 8]//id til modul og lærer
+            option:[5, 6, 9]//id til modul og lærer
             
         },
         {
             type: 'Oppsummering Modul 3', //navn på ting
             time:{
                 day: 5,// index i array over dager
-                timeSlot: [8,9], //plass i array timeSlots
+                timeSlot: [9,10], //plass i array timeSlots
             },
-            option:[3, 5, 8]//id til modul og lærer
+            option:[5,6]//id til modul og lærer
             
         },
 
         //EGENTID 
         {
-            type: '<tt>EGENTID J/L-(oddetall)<hr>EGENTID T/B-(partall)</tt>', //navn på ting
+            type: '<tt>EGENTID <br> Bjørnar og Joakim</tt>', //navn på ting
             time:{
                 day: 1,// index i array over dager
                 timeSlot: [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15], //plass i array timeSlots
             },
-            option:[10, 6, 7, 5]//id til modul og lærer
+            option:[5, 6]//id til modul og lærer
             
         },
         {
-            type: '<tt>EGENTID T/B-(oddetall)<hr>EGENTID L/J-(partall)</tt>', //navn på ting
+            type: '<tt>EGENTID <br> Erlend</tt>', //navn på ting
             time:{
-                day: 4,// index i array over dager
-                timeSlot: [0,1,2,3,4,5,6,7,11,12,13,14,15], //plass i array timeSlots
+                day: 3,// index i array over dager
+                timeSlot: [0,1,2,3,4,5,6,7, 8, 9, 10,11,12,13,14,15], //plass i array timeSlots
             },
-            option:[10, 6, 7, 5]//id til modul og lærer
+            option:[8]//id til modul og lærer
             
         },
-        {
-            type: 'TRELLOMØTE - KODELÆRERE', //navn på ting
-            time:{
-                day: 4,// index i array over dager
-                timeSlot: [8,9,10], //plass i array timeSlots
-            },
-            option:[10, 6, 7, 5, 11, 9, 8]//id til modul og lærer
+        // {
+        //     type: 'TRELLOMØTE - KODELÆRERE', //navn på ting
+        //     time:{
+        //         day: 4,// index i array over dager
+        //         timeSlot: [8,9,10], //plass i array timeSlots
+        //     },
+        //     option:[10, 6, 7, 5, 11, 9, 8]//id til modul og lærer
             
-        },
+        // },
         {
             type: '<div style="color:white;">Chorei</div>', //navn på ting
             time:{
@@ -184,31 +184,31 @@ const model = {
             option:[1,2,3,5,6,7,8,9,10,11]//id til modul og lærer
             
         },
-        {
-            type: '<div >GET-IT</div>', //navn på ting
-            time:{
-                day: 3,// index i array over dager
-                timeSlot: [0,1,2,3], //plass i array timeSlots
-            },
-            option:[8]//id til modul og lærer
+        // {
+        //     type: '<div >GET-IT</div>', //navn på ting
+        //     time:{
+        //         day: 3,// index i array over dager
+        //         timeSlot: [0,1,2,3], //plass i array timeSlots
+        //     },
+        //     option:[8]//id til modul og lærer
             
-        },
-        {
-            type: '<div >GET-IT</div>', //navn på ting
-            time:{
-                day: 3,// index i array over dager
-                timeSlot: [14,15], //plass i array timeSlots
-            },
-            option:[8]//id til modul og lærer
+        // },
+        // {
+        //     type: '<div >GET-IT</div>', //navn på ting
+        //     time:{
+        //         day: 3,// index i array over dager
+        //         timeSlot: [14,15], //plass i array timeSlots
+        //     },
+        //     option:[8]//id til modul og lærer
             
-        },
+        // },
         {
             type: '<div >MORGEN MØTE</div>', //navn på ting
             time:{
                 day: 1,// index i array over dager
                 timeSlot: [3], //plass i array timeSlots
             },
-            option:[1, 2, 3]//id til modul og lærer
+            option:[1, 2, 3,]//id til modul og lærer
             
         },
         {
@@ -245,6 +245,25 @@ const model = {
                 timeSlot: [3], //plass i array timeSlots
             },
             option:[1, 2, 3]//id til modul og lærer
+            
+        },
+        //LINN
+        {
+            type: '<div> Team Prosjekt <br> Fremføring / Utlevering</div>', //navn på ting
+            time:{
+                day: 1,// index i array over dager
+                timeSlot: [12, 13], //plass i array timeSlots
+            },
+            option:[4,7]//id til modul og lærer
+            
+        },
+        {
+            type: '<div> Undervisning / Fellesspørsmål </div>', //navn på ting
+            time:{
+                day: 3,// index i array over dager
+                timeSlot: [4, 5, 6], //plass i array timeSlots
+            },
+            option:[4,7]//id til modul og lærer
             
         },
     ],
